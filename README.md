@@ -2,8 +2,7 @@
 In this repository, I worked with the [KITTI semantic segmentation dataset] (http://www.cvlibs.net/datasets/kitti/eval_semseg.php?benchmark=semantics2015) to explore both binary and multi-class segmentation of autonomous driving scenes.
 
 ## Data
-
-The semantic segmentation dataset consists of 200 train images and 200 test RGB images. 
+The semantic segmentation dataset consists of 200 train images and 200 test images. There are 35 labeled classes, however the classes are not evenly distributed throughout the dataset. The figures below show the distribution of classes on both a per image and per pixel basis.
 
 ![alt_text](images/kitti_segmentation_class_distribution1.png)
 
