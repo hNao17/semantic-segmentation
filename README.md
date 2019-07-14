@@ -3,6 +3,12 @@ In this repository, I worked with the [KITTI semantic segmentation dataset] (htt
 
 ## Data
 
+The semantic segmentation dataset consists of 200 train images and 200 test RGB images. 
+
+![alt_text](images/kitti_segmentation_class_distribution1.png)
+
+![alt_text](images/kitti_segmentation_class_distribution2.png)
+
 ## Architecture
 
 ## References
