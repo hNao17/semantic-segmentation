@@ -6,7 +6,7 @@ The semantic segmentation dataset consists of 200 train images and 200 test imag
 
 ![alt_text](images/kitti_segmentation_class_distribution_per_image.png)
 
-![alt_text](images/kitti_segmentation_class_distribution2_per_pixel.png)
+![alt_text](images/kitti_segmentation_class_distribution_per_pixel.png)
 
 ## Architecture
 I used an encoder-decoder architecture that was based on the popular U-Net architecture[1]. The network accepts as an input a 3-channel Height x Width x 3 RGB image, downsamples the image with the encoder branch of the network and then recovers the image's original resolution using the network's decoder branch. The final output is a tensor of size Height x Width x NClasses. For binary segmentation, NClasses = 2. 
